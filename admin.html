@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Admin</title>
+
+    <style>
+
+        body {
+            text-align: justify;
+            font-family: "Times New Roman", Arial, sans-serif, serif;
+        }
+
+        #bannerhorizontal {
+            text-align: center;
+            background-color: rgb(235, 229, 215);
+            font-size: larger;   
+        }
+        
+        a:hover {
+            background-color: rgb(204, 194, 194)
+        }
+
+        h1 {
+            color:rgb(78, 73, 73);
+        }
+
+        label {
+            font-size: large;
+            font-style: italic;
+        }
+
+        #admbutton {           
+            background-color: firebrick; 
+            color: white;
+            font-size: xx-large;            
+        }
+
+        #admbutton:hover {
+            background-color: rgb(230, 238, 121);
+            color: firebrick;     
+        }
+
+    </style>
+
+</head>
+<body>
+        
+    <div id="bannerhorizontal">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="social.html">Social</a>
+        <a href="admin.html">Admin</a>                   
+    </div>
+    <br/>
+
+    <h1>ADMIN LOGIN</h1>
+
+    <form action="https://www.concordia.ca/" method="post">
+        <label for="user1">Username:</label><br/>
+        <input type="text" id="user1" name="user1" required />
+        <br/><br/>
+        <label for="pw1">Password:</label><br/>
+        <input type="password" id="pw1" name="pw1" required />    
+        <br/><br/>        
+        <input type="submit" value="SIGN IN" id="admbutton" />
+    </form>
+
+</body>
+</html>
